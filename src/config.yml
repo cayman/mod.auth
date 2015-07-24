@@ -1,0 +1,12 @@
+name: auth
+url:
+  logon: /api/logon   # url выхода в систему
+  logout: /api/logout # url  выход из системы
+  user: /api/users/:id # url запроса текущего пользователя
+
+username:
+  - firstName
+  - middleName
+  - lastName
+
+unknown: Guest  #dafault username name

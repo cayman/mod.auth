@@ -1,0 +1,14 @@
+
+    <div ng-if="!session.user" class="form-group">
+        <button class="btn btn-default btn-small" ng-click="logon()" >
+            <span>Войти</span>
+        </button>
+    </div>
+
+    <div ng-if="session.user" class="form-group">
+        {{ session.user | authUsername }}
+        <span class="separator">|</span>
+        <button class="btn btn-default btn-small"  ng-click="logout()" >
+            Выход
+        </button>
+    </div>

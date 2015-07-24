@@ -1,0 +1,1 @@
+var _authMod = angular.module('authMod',['coreMod','mod/auth/views','ui.bootstrap']);
