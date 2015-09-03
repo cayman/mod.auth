@@ -11,7 +11,6 @@
     mod:
         auth:
             name: auth
-            version: 1.3.0
             url:
               logon: /api/auth/logon   # url выхода в систему
               logout: /api/auth/logout # url  выход из системы

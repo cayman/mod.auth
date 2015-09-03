@@ -1,7 +1,7 @@
 {
     "name": "mod.auth",
     "type": "mod",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Authentication portal module",
     "keywords": [
         "authentication",
